@@ -1,6 +1,3 @@
-https://mega.nz/file/1Lolna4D#Ln2D1LYWBQYGKv1afOJ66SLzOs0aoxIxCNb7PDSCaC8
-
-
 openssl genrsa -out keypair.pem 2048
 openssl pkcs8 -topk8 -inform PEM -outform DER -in keypair.pem -out private_key.der -nocrypt
 openssl rsa -in keypair.pem -outform PEM -pubout -out public.pem
