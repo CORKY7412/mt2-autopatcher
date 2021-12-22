@@ -13,8 +13,8 @@ namespace Constants
 	static const std::wstring GAME_LAUNCHER_FILE_NAME = L"metin2.exe";
 
 	static const int FILE_BUFFER_SIZE = 64 * 1024;
-	//static const std::string UPDATE_DOMAIN = ".mt2gratis.online";
-	static const std::string UPDATE_DOMAIN = "mt2gratis.online";
+	//static const std::string UPDATE_DOMAIN = ".domeniu.com";
+	static const std::string UPDATE_DOMAIN = "domeniu.com";
 	static const std::string UPDATE_DIRECTORY = "/patch";
 
 	static const std::wstring VERSION_FILE = L"\\metin2.ini";
@@ -31,23 +31,9 @@ namespace Constants
 
 	static const std::string MAIN_PUBLIC_KEY =
 		"-----BEGIN PUBLIC KEY-----\n"\
-		"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlnEJA2WAsEBYGSVSFbKU\n"\
-		"r+imzBUcYKYX2GjSqpEC0EARKbqHk7fXZTkjRbyU4+WrNdMpJXBQkLq0QhKQZv92\n"\
-		"fMZ8hkLDgpju+jx2o4ro8oKbU1Xmy6sABDG5Pp1WMwd98zotGyVy3e87HNZA6oBN\n"\
-		"mhVql763lVNqycCkhYFY0S72Cwo0YzokZtc5QFkPyw9lng5qyOZWsEVuM43tpXEm\n"\
-		"1OtXshMf75GaShUGyo5o5kVyswssD1d7cGA3oh/zo8M8TpiFqpsgOWmB+AoOldIu\n"\
-		"AtmIvOVcgsPbRXL+2/ELwuFN7J4XVCVlgSXqL6SaD59pclViVGdgC0nlHtKGjQOR\n"\
-		"5QIDAQAB\n"\
 		"-----END PUBLIC KEY-----\n";
 	static const std::string AUXILIARY_PUBLIC_KEY =
 		"-----BEGIN PUBLIC KEY-----\n"\
-		"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlnEJA2WAsEBYGSVSFbKU\n"\
-		"r+imzBUcYKYX2GjSqpEC0EARKbqHk7fXZTkjRbyU4+WrNdMpJXBQkLq0QhKQZv92\n"\
-		"fMZ8hkLDgpju+jx2o4ro8oKbU1Xmy6sABDG5Pp1WMwd98zotGyVy3e87HNZA6oBN\n"\
-		"mhVql763lVNqycCkhYFY0S72Cwo0YzokZtc5QFkPyw9lng5qyOZWsEVuM43tpXEm\n"\
-		"1OtXshMf75GaShUGyo5o5kVyswssD1d7cGA3oh/zo8M8TpiFqpsgOWmB+AoOldIu\n"\
-		"AtmIvOVcgsPbRXL+2/ELwuFN7J4XVCVlgSXqL6SaD59pclViVGdgC0nlHtKGjQOR\n"\
-		"5QIDAQAB\n"\
 		"-----END PUBLIC KEY-----\n";
 
 	static const std::wstring GUID = L"Metin2{910A5365-6AA9-4332-AC4B-65F133BD73A3}";
